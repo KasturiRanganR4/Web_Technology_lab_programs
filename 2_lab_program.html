@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<!-- header -->
+<head>
+<title>Squares and cubes</title>
+
+<!-- style sheet -->
+<style>
+th{
+    background-color: #00FF00;
+}
+</style>
+</head>
+
+<!-- body -->
+<body background-color:ivory>
+<h1 style="border:3px solid DodgerBlue; color:brown;" align=center>SQUARES AND CUBES OF NUMBERS FROM 0 TO 10 </h1>
+<hr>
+<br>
+<!-- script -->
+<script type="text/javascript">
+document.write( "<table border=1 align=center> <tr> <th>Numbers </th><th>Square </th> <th>Cube </th> </tr>" );
+for(var n=0; n<=10; n++)
+{
+ document.write( "<tr><td align=center>" + n + "</td><td align=center>" + n*n + "</td><td align=center>" + n*n*n + "</td></tr>" );
+}
+document.write( "</table>" );
+</script>
+</body>
+<!-- end of body -->
+</html>

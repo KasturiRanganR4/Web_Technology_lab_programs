@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!ELEMENT information (vtu+)>
+<!ELEMENT usn (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT college (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ELEMENT yoj (#PCDATA)>
+<!ELEMENT email (#PCDATA)>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Calculator</title>
+</head>
+<body>
+<!-- comment line: script starts from here -->
+<script type="text/javascript">
+operation=-1;
+while (operation != 0)
+{
+ var operation=prompt("Which operation do you wish to do?\n0: End Program\n1: Sum\n2: Product\n3: Difference\n4: Quotient");
+ if (operation>=1 && operation<=4)
+ {
+  var num1=parseFloat(prompt("Enter the first number."," "));
+  var num2=parseFloat(prompt("Enter the second number."," "));
+  if (operation==1) alert("The Sum is "+(num1+num2));
+  if (operation==2) alert("The Product is "+(num1*num2));
+  if (operation==3) alert("The Difference is "+(num1-num2));
+  if (operation==4) alert("The Quotient is "+(num1/num2));
+ }
+ else
+ {
+  if (operation!=0) alert("That wasn't one of the options");
+ }
+}
+alert(" SCRIPT TERMINATED!... ");
+</script>
+
+</body>
+</html>
